@@ -19,11 +19,14 @@ def set_output_data(data_set, file_name):
     else:
         raise ValueError("File must have .csv extension")
 
+def merge_merge_sort(column, dataset):
+    df = pandas.DataFrame(data_set)
+    return  df.sort_values(by=[column])
+
 with open ('data.csv') as data:
     print(data)
     new_table = pandas.read_csv('data.csv')
     print(new_table.head())
-
 
 
 class Read_Tests(unittest.TestCase):
@@ -32,6 +35,9 @@ class Read_Tests(unittest.TestCase):
                 "Age": [26, 28, 29, 30, 39],
                 "Favorite Foods": [['Pizza', "Sushi"], ["Pasta", "Cheesecake"],
                                    ["Fish"], ["Potatoes", "Pizza"],["Shrimps"]]}
+    data_set2 = {'Location': ["QTR", "YCT", "MEX", "JAL", "CHP"],
+                "phone": [3335675454, 3331896565, 333909087, 3336655, 3331897656],
+               }
 
     """
     All the unit tests cases for the set_input_data function
@@ -87,6 +93,23 @@ class Read_Tests(unittest.TestCase):
     """
         Unit tests for the merge of the lists
     """
+
+    def test_sort_right(self):
+        df = pandas.DataFrame(data_set)
+        self.assertEqual(merge_merge_sort('Name',data_set).equals(df.sort_values(['Name'])), True )
+        self.assertEqual(merge_merge_sort('Name',data_set).empty, False)
+
+    def test_type_errors(self):
+        with self.assertRaises(TypeError):
+            merge_merge_sort(0)
+
+    def test_invalid_inputs(self):
+        with self.assertRaises(KeyError):
+            merge_merge_sort('','hello')
+        with self.assertRaises(TypeError):
+            merge_merge_sort()
+        with self.assertRaises(KeyError):
+            merge_merge_sort("",data_set)
 
 
 
