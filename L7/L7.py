@@ -23,6 +23,47 @@ def merge_merge_sort(column, dataset):
     df = pandas.DataFrame(data_set)
     return  df.sort_values(by=[column])
 
+def mergeSort(alist):
+    if len(alist) > 1:
+        mid = len(alist) // 2
+        lefthalf = alist[:mid]
+        righthalf = alist[mid:]
+
+        # recursion
+        mergeSort(lefthalf)
+        mergeSort(righthalf)
+
+        i = 0
+        j = 0
+        k = 0
+
+        while i < len(lefthalf) and j < len(righthalf):
+            if lefthalf[i] < righthalf[j]:
+                alist[k] = lefthalf[i]
+                i = i + 1
+            else:
+                alist[k] = righthalf[j]
+                j = j + 1
+            k = k + 1
+
+        while i < len(lefthalf):
+            alist[k] = lefthalf[i]
+            i = i + 1
+            k = k + 1
+
+        while j < len(righthalf):
+            alist[k] = righthalf[j]
+            j = j + 1
+            k = k + 1
+
+
+        return alist
+
+def merge_sort(dataframe,column):
+    alist = dataframe[column].values.tolist()
+    mergeSort(alist)
+    dataframe[column] = alist
+
 with open ('data.csv') as data:
     print(data)
     new_table = pandas.read_csv('data.csv')
@@ -38,6 +79,8 @@ class Read_Tests(unittest.TestCase):
     data_set2 = {'Location': ["QTR", "YCT", "MEX", "JAL", "CHP"],
                 "phone": [3335675454, 3331896565, 333909087, 3336655, 3331897656],
                }
+
+    data_set1 = {1:[2,3,1,4,5,6,7,8,9]}
 
     """
     All the unit tests cases for the set_input_data function
@@ -110,6 +153,14 @@ class Read_Tests(unittest.TestCase):
             merge_merge_sort()
         with self.assertRaises(KeyError):
             merge_merge_sort("",data_set)
+
+    def test_mergeSort(self):
+        df = pandas.DataFrame(self.data_set1)
+        print(df[1].values)
+        merge_sort(df,1)
+        print(df[1].values)
+        # self.assertEquals(mergeSort(df[1].values.tolist()), [1,2,3,4,5,6,7,8,9])
+
 
 
 
