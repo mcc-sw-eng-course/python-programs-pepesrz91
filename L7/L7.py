@@ -80,7 +80,8 @@ class Read_Tests(unittest.TestCase):
                 "phone": [3335675454, 3331896565, 333909087, 3336655, 3331897656],
                }
 
-    data_set1 = {1:[2,3,1,4,5,6,7,8,9]}
+    data_set1 = {1:[2,3,1,4,5,6,7,8,9],
+                 2:[1,2,3,4,5]}
 
     """
     All the unit tests cases for the set_input_data function
@@ -155,9 +156,14 @@ class Read_Tests(unittest.TestCase):
             merge_merge_sort("",data_set)
 
     def test_mergeSort(self):
-        df = pandas.DataFrame(self.data_set1)
-        merge_sort(df,1)
-        self.assertEqual(df[1].values.tolist(), [1,2,3,4,5,6,7,8,9])
+        new_table = pandas.read_csv('data.csv')
+        df = pandas.read_csv('data.csv')
+        new_array = df.sort_values(['Reviews'])
+        print(type(new_table['Reviews'].values.tolist()))
+        merge_sort(new_table,'Reviews')
+        print(new_table['Reviews'].values.tolist())
+        print(new_array['Reviews'].values.tolist())
+        self.assertEqual(new_table['Reviews'].values.tolist() == new_array['Reviews'].values.tolist(),True)
 
 
 
