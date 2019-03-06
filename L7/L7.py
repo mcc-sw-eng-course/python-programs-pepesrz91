@@ -156,10 +156,8 @@ class Read_Tests(unittest.TestCase):
 
     def test_mergeSort(self):
         df = pandas.DataFrame(self.data_set1)
-        print(df[1].values)
         merge_sort(df,1)
-        print(df[1].values)
-        # self.assertEquals(mergeSort(df[1].values.tolist()), [1,2,3,4,5,6,7,8,9])
+        self.assertEqual(df[1].values.tolist(), [1,2,3,4,5,6,7,8,9])
 
 
 
