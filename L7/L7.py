@@ -64,6 +64,48 @@ def merge_sort(dataframe,column):
     mergeSort(alist)
     dataframe[column] = alist
 
+def quickSort(alist):
+
+  quickSortHelper(alist,0,len(alist)-1)
+
+def quickSortHelper(alist,first,last):
+
+  if first<last:
+      splitpoint = partition(alist,first,last)
+      quickSortHelper(alist,first,splitpoint-1)
+      quickSortHelper(alist,splitpoint+1,last)
+def quick_sort(dataframe,column):
+    alist = dataframe[column].values.tolist()
+    quickSort(alist)
+    dataframe[column] = alist
+
+def partition(alist,first,last):
+
+  pivotvalue = alist[first]
+  leftmark = first+1
+  rightmark = last
+  done = False
+
+  while not done:
+      while leftmark <= rightmark and alist[leftmark] <= pivotvalue:
+          leftmark = leftmark + 1
+
+      while alist[rightmark] >= pivotvalue and rightmark >= leftmark:
+          rightmark = rightmark -1
+
+      if rightmark < leftmark:
+          done = True
+      else:
+          temp = alist[leftmark]
+          alist[leftmark] = alist[rightmark]
+          alist[rightmark] = temp
+
+  temp = alist[first]
+  alist[first] = alist[rightmark]
+  alist[rightmark] = temp
+
+  return rightmark
+
 with open ('data.csv') as data:
     print(data)
     new_table = pandas.read_csv('data.csv')
@@ -155,15 +197,21 @@ class Read_Tests(unittest.TestCase):
         with self.assertRaises(KeyError):
             merge_merge_sort("",data_set)
 
+    "COLUMNS MUST CONTAIN NUMBERS"
     def test_mergeSort(self):
         new_table = pandas.read_csv('data.csv')
         df = pandas.read_csv('data.csv')
-        new_array = df.sort_values(['Reviews'])
-        print(type(new_table['Reviews'].values.tolist()))
+        new_array = df.sort_values(['Reviews'],kind="mergesort")
         merge_sort(new_table,'Reviews')
-        print(new_table['Reviews'].values.tolist())
-        print(new_array['Reviews'].values.tolist())
         self.assertEqual(new_table['Reviews'].values.tolist() == new_array['Reviews'].values.tolist(),True)
+
+    """TESTS FOR QUICKSORT"""
+    def test_quick_sort(self):
+        new_table = pandas.read_csv('data.csv')
+        quick_sort(new_table,'Reviews')
+        df = pandas.read_csv('data.csv')
+        new_array = df.sort_values(['Reviews'],kind='quicksort')
+        self.assertEqual(new_table['Reviews'].values.tolist() == new_array['Reviews'].values.tolist(), True)
 
 
 
