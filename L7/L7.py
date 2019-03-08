@@ -213,6 +213,27 @@ class Read_Tests(unittest.TestCase):
         new_array = df.sort_values(['Reviews'],kind='quicksort')
         self.assertEqual(new_table['Reviews'].values.tolist() == new_array['Reviews'].values.tolist(), True)
 
+    def test_type_quick_sort(self):
+        new_table = pandas.read_csv('data.csv')
+        with self.assertRaises(Exception):
+            quick_sort(new_table, '')
+        with self.assertRaises(NameError):
+            quick_sort(new_table, name)
+        with self.assertRaises(KeyError):
+            quick_sort(new_table, 0)
+
+    def test_right_sort(self):
+        new_table = pandas.read_csv('data.csv')
+        quick_sort(new_table, 'Reviews')
+        df = pandas.read_csv('data.csv')
+        new_array = df.sort_values(['Reviews'], kind='mergesort')
+        self.assertEqual(new_table['Reviews'].values.tolist() == new_array['Reviews'].values.tolist(), True)
+
+
+
+
+
+
 
 
 
