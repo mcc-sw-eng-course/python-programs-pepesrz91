@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c492962e-a175-4fcf-a9c4-28d436fea737" name="Default Changelist" comment="" />
+    <list default="true" id="c492962e-a175-4fcf-a9c4-28d436fea737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/L8/ttt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L8/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/L8/ttttests.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,16 +14,18 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mcc_proyects$h10.coverage" NAME="h10 Coverage Results" MODIFIED="1550194883802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1553212871527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L8" />
     <SUITE FILE_PATH="coverage/mcc_proyects$h8.coverage" NAME="h8 Coverage Results" MODIFIED="1551200018570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
-    <SUITE FILE_PATH="coverage/mcc_proyects$hola.coverage" NAME="hola Coverage Results" MODIFIED="1551121159349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L7/L7" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Unittests_in_L5.coverage" NAME="Unittests in L5 Coverage Results" MODIFIED="1550186550623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
-    <SUITE FILE_PATH="coverage/mcc_proyects$h15.coverage" NAME="h15 Coverage Results" MODIFIED="1551200087887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
     <SUITE FILE_PATH="coverage/mcc_proyects$h9.coverage" NAME="h9 Coverage Results" MODIFIED="1550194952912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Global.coverage" NAME="Global Coverage Results" MODIFIED="1551200252895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L7" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$tictactoe.coverage" NAME="tictactoe Coverage Results" MODIFIED="1553194816171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L8" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Unittests.coverage" NAME="Unittests Coverage Results" MODIFIED="1551198391281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Unittests_in_bin.coverage" NAME="Unittests in bin Coverage Results" MODIFIED="1551198397846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/mcc_proyects$L7.coverage" NAME="L7 Coverage Results" MODIFIED="1552004246481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L7" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Unittests_in_h14_py.coverage" NAME="Unittests in h14.py Coverage Results" MODIFIED="1551198102051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$hola.coverage" NAME="hola Coverage Results" MODIFIED="1551121159349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L7/L7" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$h15.coverage" NAME="h15 Coverage Results" MODIFIED="1551200087887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$L7.coverage" NAME="L7 Coverage Results" MODIFIED="1552004246481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L7" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
@@ -44,21 +50,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/L8/ttttests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-end-line="1" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/L8/tictactoe.py">
+        <entry file="file://$PROJECT_DIR$/L8/ttt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="307">
+              <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -340,17 +344,17 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L7/data2.csv">
-          <provider editor-type-id="csv-text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
           <provider selected="true" editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
               <column index="0" width="100" />
               <column index="1" width="100" />
               <column index="2" width="100" />
               <column index="3" width="100" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -387,7 +391,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/L7/data.csv">
-          <provider editor-type-id="csv-text-editor" />
           <provider selected="true" editor-type-id="csv-table-editor">
             <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
               <column index="0" width="100" />
@@ -405,6 +408,7 @@
               <column index="12" width="100" />
             </state>
           </provider>
+          <provider editor-type-id="csv-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -452,6 +456,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/L7/data.csv" />
         <option value="$PROJECT_DIR$/L7/L7.py" />
+        <option value="$PROJECT_DIR$/L8/ttt.py" />
       </list>
     </option>
   </component>
@@ -476,12 +481,7 @@
             <path>
               <item name="mcc-proyects" type="b2602c69:ProjectViewProjectNode" />
               <item name="mcc-proyects" type="462c0819:PsiDirectoryNode" />
-              <item name="L5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mcc-proyects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mcc-proyects" type="462c0819:PsiDirectoryNode" />
-              <item name="L7" type="462c0819:PsiDirectoryNode" />
+              <item name="L8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mcc-proyects" type="b2602c69:ProjectViewProjectNode" />
@@ -501,6 +501,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/L5" />
     </key>
@@ -517,7 +520,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.L7">
+  <component name="RunManager" selected="Python.ttt">
     <configuration name="L7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mcc-proyects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -584,7 +587,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="h9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tictactoe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mcc-proyects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -592,12 +595,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L5/h9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L8/ttttests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mcc-proyects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/L8/ttt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -638,21 +663,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in h14.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="mcc-proyects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/L5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/L5/h14.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests" type="tests" factoryName="Unittests">
       <module name="mcc-proyects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -673,19 +683,19 @@
       <item itemvalue="Python.L7" />
       <item itemvalue="Python.h15" />
       <item itemvalue="Python.h8" />
-      <item itemvalue="Python.h9" />
+      <item itemvalue="Python.tictactoe" />
       <item itemvalue="Python tests.Global" />
       <item itemvalue="Python tests.Unittests in bin" />
       <item itemvalue="Python tests.Unittests" />
-      <item itemvalue="Python tests.Unittests in h14.py" />
+      <item itemvalue="Python.ttt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ttt" />
+        <item itemvalue="Python.tictactoe" />
         <item itemvalue="Python.L7" />
         <item itemvalue="Python.h15" />
         <item itemvalue="Python.h8" />
-        <item itemvalue="Python tests.Unittests in h14.py" />
-        <item itemvalue="Python.h9" />
       </list>
     </recent_temporary>
   </component>
@@ -709,7 +719,8 @@
       <workItem from="1551402531900" duration="1351000" />
       <workItem from="1551883708806" duration="4028000" />
       <workItem from="1552003821881" duration="709000" />
-      <workItem from="1553194518348" duration="235000" />
+      <workItem from="1553194518348" duration="873000" />
+      <workItem from="1553212330302" duration="537000" />
     </task>
     <servers />
   </component>
@@ -746,23 +757,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24164000" />
+    <option name="totallyTimeSpent" value="25574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="990" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2899878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4981685" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4981685" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50183153" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4969475" weight="0.32962137" />
@@ -805,6 +817,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,14 +902,14 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/Downloads/googleplaystore.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="10826" column="64" lean-forward="true" selection-end-line="10841" selection-end-column="164" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L7/__init__.py">
@@ -927,7 +979,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L7/data1.csv">
-      <provider editor-type-id="csv-text-editor" />
       <provider selected="true" editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
@@ -936,6 +987,7 @@
           <column index="3" width="100" />
         </state>
       </provider>
+      <provider editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/L7/L7.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -951,6 +1003,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -1226,17 +1285,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L7/data2.csv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
           <column index="1" width="100" />
           <column index="2" width="100" />
           <column index="3" width="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1265,12 +1324,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/L7/data.csv">
-      <provider editor-type-id="csv-text-editor" />
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="162615">
-          <caret line="10841" column="164" selection-start-line="10841" selection-start-column="164" selection-end-line="10841" selection-end-column="164" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3">
           <column index="0" width="100" />
@@ -1288,6 +1341,12 @@
           <column index="12" width="100" />
         </state>
       </provider>
+      <provider editor-type-id="csv-text-editor" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="162615">
+          <caret line="10841" column="164" selection-start-line="10841" selection-start-column="164" selection-end-line="10841" selection-end-column="164" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1299,19 +1358,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/L8/ttttests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-end-line="1" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/L8/tictactoe.py">
+    <entry file="file://$PROJECT_DIR$/L8/ttt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="307">
+          <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
         </state>
       </provider>
     </entry>
