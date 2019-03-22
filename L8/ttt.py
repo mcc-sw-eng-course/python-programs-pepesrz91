@@ -117,7 +117,8 @@ class TicTacToe:
                 player_turn = 'X'
                 if self.player_won(self.player_char, self.board.board):
                     print("You won!")
-                    break
+                    self.board.print_board()
+                    return
             elif self.player_char == 'X' and player_turn == 'X':
                 self.board.print_board()
                 player_move = int(input("Choose Your move"))
@@ -126,7 +127,8 @@ class TicTacToe:
                 game_won = self.player_won(self.player_char, self.board.board)
                 if game_won:
                     print("You won!")
-                    break
+                    self.board.print_board()
+                    return
             elif self.ai_char == 'O' and player_turn == 'O':
                 print(self.board.available_moves())
                 ai_move = random.choice(self.board.available_moves()) + 1
@@ -134,7 +136,8 @@ class TicTacToe:
                 player_turn = 'X'
                 if self.player_won(self.ai_char,  self.board.board):
                     print("You Lost!")
-                    break
+                    self.board.print_board()
+                    return
             elif self.ai_char == 'X' and player_turn == 'X':
                 print(self.board.available_moves())
                 ai_move = random.choice(self.board.available_moves()) + 1
@@ -142,7 +145,8 @@ class TicTacToe:
                 player_turn = 'O'
                 if self.player_won(self.ai_char, self.board.board):
                     print("You Lost!")
-                    break
+                    self.board.print_board()
+                    return
             else:
                 print("Something went wrong")
 

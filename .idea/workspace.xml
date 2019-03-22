@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c492962e-a175-4fcf-a9c4-28d436fea737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/L8/ttt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L8/tictactoe.py" beforeDir="false" afterPath="$PROJECT_DIR$/L8/ttttests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L8/ttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/L8/ttt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mcc_proyects$h10.coverage" NAME="h10 Coverage Results" MODIFIED="1550194883802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
-    <SUITE FILE_PATH="coverage/mcc_proyects$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1553212871527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L8" />
+    <SUITE FILE_PATH="coverage/mcc_proyects$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1553213056574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L8" />
     <SUITE FILE_PATH="coverage/mcc_proyects$h8.coverage" NAME="h8 Coverage Results" MODIFIED="1551200018570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
     <SUITE FILE_PATH="coverage/mcc_proyects$Unittests_in_L5.coverage" NAME="Unittests in L5 Coverage Results" MODIFIED="1550186550623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
     <SUITE FILE_PATH="coverage/mcc_proyects$h9.coverage" NAME="h9 Coverage Results" MODIFIED="1550194952912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/L5" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/L8/ttt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+            <state relative-caret-position="163">
+              <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -720,7 +718,7 @@
       <workItem from="1551883708806" duration="4028000" />
       <workItem from="1552003821881" duration="709000" />
       <workItem from="1553194518348" duration="873000" />
-      <workItem from="1553212330302" duration="537000" />
+      <workItem from="1553212330302" duration="752000" />
     </task>
     <servers />
   </component>
@@ -757,7 +755,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25574000" />
+    <option name="totallyTimeSpent" value="25789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="990" extended-state="0" />
@@ -1367,8 +1365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/L8/ttt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="147" column="16" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="16" />
+        <state relative-caret-position="163">
+          <caret line="119" column="44" selection-start-line="119" selection-start-column="44" selection-end-line="119" selection-end-column="44" />
         </state>
       </provider>
     </entry>
