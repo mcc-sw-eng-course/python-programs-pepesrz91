@@ -23,7 +23,7 @@ class Board:
             print(board_string)
             print(' ------------- ')
 
-    def available_moves(self): #TODO: Check if there are still avialable moves.
+    def available_moves(self):
         available_moves = []
         for row, i in enumerate(self.board):
             for column, j in enumerate(i):
